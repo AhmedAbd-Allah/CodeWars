@@ -1,0 +1,1 @@
+function cubeOdd(arr) {return arr.reduce((accumulator, currentValue) => typeof(currentValue) == "number" ? (currentValue % 2 != 0 ?accumulator += Math.pow(currentValue, 3) : accumulator += 0) : undefined )}
