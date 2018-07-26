@@ -1,0 +1,3 @@
+function discoverOriginalPrice(discountedPrice, salePercentage){
+return Number.isInteger(discountedPrice/(1-(salePercentage/100))) ? (discountedPrice/(1-(salePercentage/100))) : Number((discountedPrice/(1-(salePercentage/100))).toFixed(2))
+}
