@@ -1,0 +1,4 @@
+function predictAge(...ages){
+result = ages.reduce((accumulator, age) => accumulator + (Math.pow(age, 2)));
+return Math.round(Math.sqrt(result)/2));
+}
