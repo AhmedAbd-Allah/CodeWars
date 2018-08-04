@@ -1,0 +1,28 @@
+function listSquared(m, n) {
+var hypots = []
+var resultElement = []
+var finalResult = []
+ var iterator = 0, divisable = 0
+//console.log(m, n)
+for (iterator>=m ; iterator<n ; iterator++)
+  {
+	//console.log(iterator)
+    for (divisable>=1 ; divisable<=iterator ; divisable++)
+      {
+		//console.log(divisable)
+          if (iterator % divisable == 0)
+          { 
+			console.log(iterator, divisable)
+            //  hypots.push(divisable)
+    		//console.log(hypots)
+          }
+	  }
+	
+   // if (Number.isInteger(Math.hypot(...divisable)))
+   // {
+       // resultElement.push(iterator, Math.hypot(...divisable))
+     //   finalResult.push(resultElement)
+   // }
+  }
+  return finalResult;
+}
